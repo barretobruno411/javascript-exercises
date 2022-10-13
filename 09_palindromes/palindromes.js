@@ -4,6 +4,6 @@ const palindromes = function (string) {
     const resume = initial.split("").reverse().join("")
     return initial === resume
 };
-console.log(palindromes("A car, a man, a maraca."))
+console.log(palindromes("A car, a man, a fdfd."))
 // Do not edit below this line
 module.exports = palindromes;
